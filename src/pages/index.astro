@@ -58,7 +58,7 @@ const metadata = {
   <!-- Trust Section -->
   <section class="w-full py-8 px-2 md:px-8 bg-white dark:bg-gray-800">
     <div class="max-w-5xl mx-auto">
-      <div class="flex flex-wrap gap-3 justify-center items-center text-xs font-semibold">
+      <div class="flex flex-wrap gap-3 justify-center items-center text-sm font-semibold">
         <span class="px-3 py-2 bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100 rounded-full" title="Figma"
           >🎨 Figma</span
         >
@@ -195,7 +195,7 @@ const metadata = {
           class="w-6 h-6 mr-2"
           loading="lazy"
         />
-        English <span class="ml-2 text-xs mr-1">(C1 Business)</span>
+        English <span class="ml-2 text-sm mr-1">(C1 Business)</span>
       </li>
       <li class="bg-blue-100 text-blue-900 px-4 py-2 rounded-full font-semibold flex items-center">
         <img
@@ -204,7 +204,7 @@ const metadata = {
           class="w-6 h-6 mr-2"
           loading="lazy"
         />
-        German <span class="ml-2 text-xs mr-1">(C1 Business)</span>
+        German <span class="ml-2 text-sm mr-1">(C1 Business)</span>
       </li>
       <li class="bg-blue-100 text-blue-900 px-4 py-2 rounded-full font-semibold flex items-center">
         <img
@@ -213,7 +213,7 @@ const metadata = {
           class="w-6 h-6 mr-2"
           loading="lazy"
         />
-        Italian <span class="ml-2 text-xs mr-1">(C2 Native)</span>
+        Italian <span class="ml-2 text-sm mr-1">(C2 Native)</span>
       </li>
     </ul>
   </section>
@@ -241,9 +241,15 @@ const metadata = {
         <div class="text-gray-500 mb-2">Haufe-Lexware GmbH & Co. KG - Freiburg im Breisgau, Germany</div>
         <ul class="text-sm text-gray-700 dark:text-gray-300 space-y-2 mt-2">
           <li class="flex items-start gap-2">
-            <span class="mt-1"><Icon name="tabler:check" class="text-green-500 w-5 h-5" /></span>Creation and
-            maintenance of informational web pages, product pages, marketing landing pages, categories and products for
-            the websites: shop.haufe.de, shop.lexware.de, haufegroup.com, haufe.de on custom CMS and Webflow.
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1"></div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Creation and maintenance of informational Web Pages Product Pages, marketing Landing Pages, Categories and Products for the Websites: shop.haufe.de, shop.lexware.de, haufegroup.com, haufe.de on custom CMS and Webflow.
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -264,24 +270,41 @@ const metadata = {
       </div>
       <div class="md:w-2/3 p-6 flex flex-col justify-center">
         <div class="text-blue-700 font-bold text-lg mb-2">2020 - 2023</div>
-        <div class="font-semibold text-xl mb-1">Kaufmann im Einzelhandel / E-Commerce Specialist</div>
+        <div class="font-semibold text-xl mb-1">E-Commerce Specialist / Retail Store Operations (Kaufmann im Einzelhandel)</div>
         <div class="text-gray-500 mb-2">Hild Radwelt GmbH - Freiburg im Breisgau, Germany</div>
         <ul class="text-sm text-gray-700 dark:text-gray-300 space-y-2 mt-2">
           <li class="flex items-start gap-2">
-            <span class="mt-1"><Icon name="tabler:check" class="text-green-500 w-5 h-5" /></span>Shopify CMS: Creation
-            from scratch of the Website hild-radwelt.de, creation and maintenance of informational contents, services
-            pages, product pages, ERP Integration for categories, products and prices for the website with a 4.7 ⭐
-            Trusted Shop score (June 2023).
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">E-Commerce</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Creation from scratch of the Website hild-radwelt.de on Shopify Advanced with a 4.7 ⭐ Trusted Shop score (June 2023). Creation and maintenance of informational contents, services pages, product pages, ERP Integration for categories, products and prices, SEO, Newsletter, ChatBot, Appointment Booking System.
+              </div>
+            </div>
           </li>
           <li class="flex items-start gap-2">
-            <span class="mt-1"><Icon name="tabler:check" class="text-green-500 w-5 h-5" /></span>Technical Sales
-            Assistant: Bikes & E-Bikes (City, Road, Trekking, Mountainbike, Cargobike) Leasing / Financial / Insurance
-            services.
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Technical Sales Assistant</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Bikes & E-Bikes (City, Road, Trekking, Mountainbike, Cargobike, S-Pedelec) Leasing / Financial / Insurance services, ERP Invoicing/Contracts. Brands: KTM, Bulls, Flyer, Pegasus, Kettler, Bosch, Shimano, Brose, Yamaha, Panasonic.
+              </div>
+            </div>
           </li>
           <li class="flex items-start gap-2">
-            <span class="mt-1"><Icon name="tabler:check" class="text-green-500 w-5 h-5" /></span>Secondary tasks: Social
-            Media Marketing instagram.com/hild.radwelt, facebook.com/hild.radwelt, IT-Technician, Photoshooting, Graphic
-            Design & Print Design for marketing in-store and online (banner, graphics, flyers, brochure, social media).
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Secondary tasks</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Social Media Marketing on instagram.com/hild.radwelt, facebook.com/hild.radwelt, IT-Technician, Photoshooting, Graphic Design & Print Design for marketing in-store and online (banner, graphics, flyers, brochure, social media).
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -302,19 +325,30 @@ const metadata = {
       </div>
       <div class="md:w-2/3 p-6 flex flex-col justify-center">
         <div class="text-blue-700 font-bold text-lg mb-2">2016 - 2020</div>
-        <div class="font-semibold text-xl mb-1">Kaufmann im Einzelhandel</div>
+        <div class="font-semibold text-xl mb-1">Retail Store Operations (Kaufmann im Einzelhandel)</div>
         <div class="text-gray-500 mb-2">Family company - Milan, Italy</div>
         <ul class="text-sm text-gray-700 dark:text-gray-300 space-y-2 mt-2">
           <li class="flex items-start gap-2">
-            <span class="mt-1"><Icon name="tabler:check" class="text-green-500 w-5 h-5" /></span>
-            Management of the shop: Contact with the suppliers, product orders and arrivals, warehouse and shelves organization,
-            furnishing and window dressing, customer support, product shipping.
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Management of the shop</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Contact with the suppliers, selection of the best products based on the clients needs, product orders and arrivals, warehouse and shelves organization, furnishing and window dressing, quality control, customer support, digital and telephone orders, product shipping.
+              </div>
+            </div>
           </li>
           <li class="flex items-start gap-2">
-            <span class="mt-1"><Icon name="tabler:check" class="text-green-500 w-5 h-5" /></span>
-            Back Office: Pricing with markups, invoice management, ERP Software product database management, electronic scales
-            and digital cash register with electronic invoicing, business administration and accountant liaison, HACCP and
-            workplace safety training, regulatory monitoring.
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Back Office</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Pricing with markups, digital invoice management, ERP Software product database management, electronic scales and digital cash register with electronic invoicing, business administration, daily balance, and accountant liaison, HACCP and workplace safety training, regulatory compliance monitoring, insurances, Social Media Management.
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -337,6 +371,52 @@ const metadata = {
         <div class="text-blue-700 font-bold text-lg mb-2">2013-2015</div>
         <div class="font-semibold text-xl mb-1">Web Design / Content Management</div>
         <div class="text-gray-500 mb-2">Eclóga Italia - Milan, Italy</div>
+        <ul class="text-sm text-gray-700 dark:text-gray-300 space-y-2 mt-2">
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Web Content Manager / Web Designer / SEO Copywriter</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Creation from scratch and maintenance of company network websites with SEO copywriting. Management of the E-Commerce for services, safety courses, and certificates.
+              </div>
+            </div>
+          </li>
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Digital Marketing</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Social Media (Facebook, Instagram), E-Mail campaigns.
+              </div>
+            </div>
+          </li>
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Back Office</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Invoicing management.
+              </div>
+            </div>
+          </li>
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Software</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                WordPress, WooCommerce, MailChimp, Mailup, Elatos ERP.
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
     <!-- 2009-2012 -->
@@ -355,8 +435,54 @@ const metadata = {
       </div>
       <div class="md:w-2/3 p-6 flex flex-col justify-center">
         <div class="text-blue-700 font-bold text-lg mb-2">2009-2012</div>
-        <div class="font-semibold text-xl mb-1">Retail Store Operations / E-Commerce Management</div>
-        <div class="text-gray-500 mb-2">Galle´ - Milan, Italy</div>
+        <div class="font-semibold text-xl mb-1">E-Commerce Specialist / Retail Store Operations (Kaufmann im Einzelhandel)</div>
+        <div class="text-gray-500 mb-2">Gallé - Milan, Italy</div>
+        <ul class="text-sm text-gray-700 dark:text-gray-300 space-y-2 mt-2">
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Back Office</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Invoices, supplier orders, product arrivals and returns, inventory management, product prices, markup calculation and barcodes generation on Danea Easyfatt ERP, with E-Commerce Integration.
+              </div>
+            </div>
+          </li>
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">E-Commerce Specialist</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Website creation and management on Prestashop CMS with 20,000+ products, mass editing via CSV, automatic integration with eBay/Amazon marketplaces, product images/descriptions/prices updates.
+              </div>
+            </div>
+          </li>
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Warehouse Operations</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Courier integration (UPS, BRT, GLS), packaging, shipping and tracking management.
+              </div>
+            </div>
+          </li>
+          <li class="flex items-start gap-2">
+            <div class="flex-shrink-0 mt-1">
+              <Icon name="tabler:check" class="text-green-500 w-5 h-5" />
+            </div>
+            <div>
+              <div class="font-semibold text-lg mb-1">Sales Assistant</div>
+              <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+                Customer support, shelves and window dressing, product promotion and store maintenance.
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   </section>
@@ -380,7 +506,7 @@ const metadata = {
         <div>
           <button
             type="button"
-            class="text-xs text-blue-600 underline mb-2 mx-auto"
+            class="text-sm text-blue-600 underline mb-2 mx-auto"
             aria-expanded="false"
             aria-controls="skills-2025"
             onclick="const e2025=document.getElementById('skills-2025'); const btn2025=this; if(e2025.classList.toggle('hidden')){btn2025.setAttribute('aria-expanded','false');btn2025.textContent='More info';}else{btn2025.setAttribute('aria-expanded','true');btn2025.textContent='Less info';}"
@@ -416,7 +542,7 @@ const metadata = {
         <div>
           <button
             type="button"
-            class="text-xs text-blue-600 underline mb-2 mx-auto"
+            class="text-sm text-blue-600 underline mb-2 mx-auto"
             aria-expanded="false"
             aria-controls="skills-2023"
             onclick="const e2023=document.getElementById('skills-2023'); const btn2023=this; if(e2023.classList.toggle('hidden')){btn2023.setAttribute('aria-expanded','false');btn2023.textContent='More info';}else{btn2023.setAttribute('aria-expanded','true');btn2023.textContent='Less info';}"
@@ -446,7 +572,7 @@ const metadata = {
         <div>
           <button
             type="button"
-            class="text-xs text-blue-600 underline mb-2 mx-auto"
+            class="text-sm text-blue-600 underline mb-2 mx-auto"
             aria-expanded="false"
             aria-controls="skills-2021"
             onclick="const e2021=document.getElementById('skills-2021'); const btn2021=this; if(e2021.classList.toggle('hidden')){btn2021.setAttribute('aria-expanded','false');btn2021.textContent='More info';}else{btn2021.setAttribute('aria-expanded','true');btn2021.textContent='Less info';}"
@@ -514,31 +640,31 @@ const metadata = {
       <div class="md:w-2/3 p-6 flex flex-col justify-center">
         <div class="text-sm text-white mb-1">Management of a physical shop and Back Office</div>
         <div class="text-blue-700 font-bold text-2xl mb-2">Retail Store Operations (Kaufmann Im Einzelhandel)</div>
-        <div class="text-xs text-gray-600 dark:text-gray-400 mb-2">Level: Senior · 10+ Years experience</div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="text-sm text-gray-600 dark:text-gray-400 mb-2">Level: Senior · 10+ Years experience</div>
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Back Office Skills
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
-          Data management on ERP, CRM, PIM Software, with Digital Invoices support.<br />Passive cycle: Contact with the
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+          Data management on ERP, CRM, PIM Software, with Digital Invoices support.<br /><b>Passive cycle:</b> Contact with the
           product distributors, purchasing, Inventory and Warehouse Management, orders, goods receipts, delivery bills,
-          package control, warehouse organization.<br />Active cycle: price calculation & monitoring, invoices,
+          package control, warehouse organization.<br /><b>Active cycle:</b> price calculation & monitoring, invoices,
           packaging, deliveries, tracking codes, complaints, returns, credit notes, daily cashier credits, promotions
           and Customer Cards.
         </div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Front Office Skills
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
           Presentation of goods, Merchandise Display, Radio / TV in Store.<br />Technical consulting, effective
           communication, multilingual support (English, German, Italian)
         </div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Software
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
-          ERP / CRM / PIM, Point of Sale: Haufe Office Products, Danea Easyfatt, Microsoft Dynamics, Salesforce, SAP,
-          Infor, vTiger, Oracle, Fidelio, Opera, ZEG<br />Microsoft Office 365: Word, Excel, PowerPoint, Teams,
-          SharePoint, Power Apps.<br />Other Tools: Miro, Google Workspace, Google Maps (MyBusiness)
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
+          <b>ERP / CRM / PIM, Point of Sale:</b> Haufe Office Products, Danea Easyfatt, Microsoft Dynamics, Salesforce, SAP,
+          Infor, vTiger, Oracle, Fidelio, Opera, ZEG<br /><b>Microsoft Office 365:</b> Word, Excel, PowerPoint, Teams,
+          SharePoint, Power Apps.<br /><b>Other Tools:</b> Miro, Google Workspace, Google Maps (MyBusiness)
         </div>
       </div>
     </div>
@@ -564,11 +690,11 @@ const metadata = {
           Setting up of E-Commerce Websites from scratch on different E-CMS platforms.
         </div>
         <div class="text-blue-700 font-bold text-2xl mb-2">E-Commerce Specialist</div>
-        <div class="text-xs text-gray-600 dark:text-gray-400 mb-2">Level: Intermediate · 8+ Years experience</div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="text-sm text-gray-600 dark:text-gray-400 mb-2">Level: Intermediate · 8+ Years experience</div>
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Skills
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
           Online store creation, UX-UI design, domain / hosting setup, Content Management, Website Structure, Menu
           Structure, Blog SEO friendly Marketing Contents, Product Descriptions, Product Photos, payment integration,
           multi-language, Configuration and integration (Trusted Shops TrustBadge, Trusted Shops Legal Protection,
@@ -576,10 +702,10 @@ const metadata = {
           Bot Chat, Search Bar Marketing, A/B Testing. Interface connection with Management Software
           (WaWi/ERP-Schnittstelle) to update Products, Descriptions, Quantity, Prices, Images, Invoices.
         </div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Software
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
           <b>E-CMS Platforms:</b> Webflow, Shopify, PrestaShop, Shopware, WordPress WooCommerce (Elementor, Divi) Joomla
           Virtuemart, Adobe Commerce (Magento), Jimdo, Squarespace, Big Commerce, Storeden, Dukaan, Sellfy, Ecwid, Weebly.<br
           /><b>Marketplace:</b> Amazon, eBay, Google Shopping, Idealo, Trovaprezzi, Instagram / Facebook Shop<br /><b
@@ -610,19 +736,19 @@ const metadata = {
           Web app development on React / Next.js / Vue / Astro JS libraries or CMS
         </div>
         <div class="text-blue-700 font-bold text-2xl mb-2">Front-End Web Developer</div>
-        <div class="text-xs text-gray-600 dark:text-gray-400 mb-2">Level: Junior · 2+ Years experience</div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="text-sm text-gray-600 dark:text-gray-400 mb-2">Level: Junior · 2+ Years experience</div>
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Technologies
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
           <b>Languages:</b> HTML5, CSS3, JavaScript, Typescript<br /><b>JS / CSS Libraries:</b> React.js, NextJS, Vue, Nuxt,
           Astro, Tailwind, Bootstrap<br /><b>Hosting:</b> Vercel, Netlify, Hostinger, PhpMyAdmin, Plesk, cPanel, MySQL, SSH,
           Softaculous<br /><b>Database:</b> SQL, PostgreSQL, Firebase<br /><b>Headless CMS:</b> Strapi
         </div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Software
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
           <b>Dev:</b> Visual Studio Code, JetBrains, GitHub, GitLab<br />
           <b>Project Management:</b> Jira, Confluence, Trello, Notion, ClickUp, Agile & Scrum, Kanban, Budgeting e Forecasting,
           Business Process Optimization, KPI Monitoring, Team Coordination / Cross-functional Collaboration<br />
@@ -654,11 +780,11 @@ const metadata = {
           Content analysis, optimization and promotion on the preferred target groups channels
         </div>
         <div class="text-blue-700 font-bold text-2xl mb-2">Analytics / SEO / Website Performance</div>
-        <div class="text-xs text-gray-600 dark:text-gray-400 mb-2">Level: Intermediate · 5+ Years experience</div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="text-sm text-gray-600 dark:text-gray-400 mb-2">Level: Intermediate · 5+ Years experience</div>
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Skills
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
           SEO Keyword Research, Competitor Analysis, Online Reputation, Backlink Strategy, Company Directories, Web
           Catalogs, Website Search Bar Marketing, Customer Journey, Meta Title, Meta Content, Meta Description, Meta
           Keywords, Meta Robots, Google Bot, Canonical Link, Rich Snippet Schema.org, DCMI Schema Dublin Core Metadata,
@@ -669,10 +795,10 @@ const metadata = {
             >Social Media Commerce:</b
           > Meta Commerce with Instagram & Facebook Shop<br /><b>E-Mail Marketing:</b> MailChimp, Mailup, Rapidmail, Eloqua
         </div>
-        <div class="font-semibold text-md mb-1 mt-2 flex items-center gap-2">
+        <div class="font-semibold text-lg mb-1 mt-2 flex items-center gap-2">
           <Icon name="tabler:check" class="text-blue-600 w-5 h-5" />Software
         </div>
-        <div class="text-xs text-gray-700 dark:text-gray-400 mb-2">
+        <div class="text-sm text-gray-700 dark:text-gray-400 mb-2">
           Google Tag Manager, Google Analytics, Google Business, Google Keyword Planner, Google Lighthouse, Google Maps,
           Google Merchant, Google Search Console, Google Trends.<br />
           <b>SEO & Analysis Tools:</b> Ahrefs, Econda, AIOSEO, AnswerThePublic, ContentBird, GTmetrix, PageSpeed Insights
@@ -697,7 +823,7 @@ const metadata = {
         <span class="w-12 h-12 flex items-center justify-center text-3xl mb-0 text-primary">🧠</span>
         <div>
           <div class="font-semibold text-lg mb-1">Analytical thinking and problem-solving</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">
+          <div class="text-sm text-gray-500 dark:text-gray-400">
             Ability to analyze complex situations and find effective solutions.
           </div>
         </div>
@@ -708,7 +834,7 @@ const metadata = {
         <span class="w-12 h-12 flex items-center justify-center text-3xl mb-0 text-primary">⚡</span>
         <div>
           <div class="font-semibold text-lg mb-1">Quick adaptation to new technologies</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">
+          <div class="text-sm text-gray-500 dark:text-gray-400">
             Fast learner, able to master new tools and frameworks efficiently.
           </div>
         </div>
@@ -719,7 +845,7 @@ const metadata = {
         <span class="w-12 h-12 flex items-center justify-center text-3xl mb-0 text-primary">🤝</span>
         <div>
           <div class="font-semibold text-lg mb-1">Empathetic and customer-oriented approach</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">
+          <div class="text-sm text-gray-500 dark:text-gray-400">
             Strong empathy and focus on customer needs and satisfaction.
           </div>
         </div>
@@ -730,7 +856,7 @@ const metadata = {
         <span class="w-12 h-12 flex items-center justify-center text-3xl mb-0 text-primary">💬</span>
         <div>
           <div class="font-semibold text-lg mb-1">Effective communication and teamwork</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">Clear communicator and collaborative team player.</div>
+          <div class="text-sm text-gray-500 dark:text-gray-400">Clear communicator and collaborative team player.</div>
         </div>
       </div>
       <div
@@ -739,7 +865,7 @@ const metadata = {
         <span class="w-12 h-12 flex items-center justify-center text-3xl mb-0 text-primary">🔧</span>
         <div>
           <div class="font-semibold text-lg mb-1">Digitalization of the processes and efficiency improvement</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">
+          <div class="text-sm text-gray-500 dark:text-gray-400">
             Constantly seeking ways to improve processes through digital tools.
           </div>
         </div>
@@ -750,7 +876,7 @@ const metadata = {
         <span class="w-12 h-12 flex items-center justify-center text-3xl mb-0 text-primary">📚</span>
         <div>
           <div class="font-semibold text-lg mb-1">Continuous learning mindset</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">
+          <div class="text-sm text-gray-500 dark:text-gray-400">
             Driven by curiosity and a constant desire to acquire new knowledge and skills.
           </div>
         </div>

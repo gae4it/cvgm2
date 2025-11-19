@@ -1,6 +1,6 @@
 site:
   name: Curriculum Vitae
-  site: 'https://cvgm2.netlify.app'
+  site: 'https://portfoliogm.netlify.app'
   base: '/'
   trailingSlash: false
 
